@@ -4,7 +4,7 @@ Hypothyroid Disease Detection using Deep Learning
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The project aims to improve early and accurate diagnosis of hypothyroidism by developing a deep learning model that classifies hypothyroid stages (primary, compensated, or secondary). Using thyroid function test data, it enhances diagnostic efficiency, potentially aiding healthcare providers, especially in areas with limited resources. The project leverages algorithms like Naive Bayes, Random Forest, ANN, and XGBoost, and provides a systematic approach from data processing to deployment for clinical use.
 
 ## Features
  1. High Accuracy in Diagnosis
@@ -14,44 +14,62 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
+### Hardware
+- GPU-Enabled Computing : NVIDIA GPU for faster processing.
+- CPU: High-performance CPU like Intel Core i7 or AMD Ryzen.
+- Memory: 16 GB RAM.
+- Storag*: 512 GB SSD.
+
+### Software
+- Programming Language :Python 3.8+.
+- Libraries: TensorFlow, Keras, Scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Seaborn.
+- Development Environment : Jupyter Notebook or VS Code.
+- Operating System: Ubuntu or Windows 10/11.
+- Additional Dependencies: CUDA Toolkit, Anaconda Distribution for managing packages and environments.
+
+### Data Requirements
+- Dataset: Publicly available thyroid function test data, labeled for hypothyroidism classification.
+- Data Processing: Handling missing values and feature engineering for consistent, reliable model training.
+  
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![image](https://github.com/user-attachments/assets/fe0f8d70-c49a-4a70-836d-0dd025a4851a)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - HYPOTHYROID DETECTION
+![Screenshot 2024-10-29 162802](https://github.com/user-attachments/assets/78ee8743-9926-4a03-b627-1847112ba03d)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output2 - DETECTION WITH DETAILS
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![Screenshot 2024-10-29 162734](https://github.com/user-attachments/assets/aefac261-d2fa-41c0-9fb8-197ddc5b8a8e)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+### Output3 - Real Time Visulalization 
+![Screenshot 2024-10-29 162753](https://github.com/user-attachments/assets/9f175990-85ea-4f76-84e8-445918444abf)
+
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+Deep learning
+Accuracy: 98%
+Precision: 93%
+Recall: 92%
+Inferences: Effective
+![Screenshot 2024-10-29 163228](https://github.com/user-attachments/assets/a4e9f094-c7d4-4e19-9922-c451a731a3c8)
+
 
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.E. Mohan et al., "Thyroid Detection and Classification Using DNN Based on Hybrid Meta-Heuristic and LSTM Technique," in IEEE Access, vol. 11, pp. 68127-68138, 2023.
 
+2.X. Chai, "Diagnosis Method of Thyroid Disease Combining Knowledge Graph and Deep Learning," in IEEE Access, vol. 8, pp. 149787-149795, 2020.
 
-
+3.G. Obaido et al., "An Improved Framework for Detecting Thyroid Disease Using Filter-Based Feature Selection and Stacking Ensemble," in IEEE Access, vol. 12, pp. 89098-89112, 2024.
 
