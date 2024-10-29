@@ -64,7 +64,7 @@ Inferences: Effective
 ![Screenshot 2024-10-29 163228](https://github.com/user-attachments/assets/a4e9f094-c7d4-4e19-9922-c451a731a3c8)
 
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The project enhances early hypothyroid detection accuracy, aids remote diagnostics, saves resources, and provides a foundation for AI-driven healthcare tools.
 
 ## Articles published / References
 1.E. Mohan et al., "Thyroid Detection and Classification Using DNN Based on Hybrid Meta-Heuristic and LSTM Technique," in IEEE Access, vol. 11, pp. 68127-68138, 2023.
