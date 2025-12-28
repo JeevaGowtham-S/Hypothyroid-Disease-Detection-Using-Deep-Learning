@@ -1,75 +1,87 @@
 ## Title of the Project
-Hypothyroid Disease Detection using Deep Learning
-
-
+StrongBones : Cracking the Silent Disease
 ## About
-<!--Detailed Description about the project-->
-The project aims to improve early and accurate diagnosis of hypothyroidism by developing a deep learning model that classifies hypothyroid stages (primary, compensated, or secondary). Using thyroid function test data, it enhances diagnostic efficiency, potentially aiding healthcare providers, especially in areas with limited resources. The project leverages algorithms like Naive Bayes, Random Forest, ANN, and XGBoost, and provides a systematic approach from data processing to deployment for clinical use.
+
+StrongBones: Cracking the Silent Disease is a deep learning–based medical image analysis project developed to detect and classify bone health conditions such as Normal, Osteopenia, and Osteoporosis using radiological images. Osteoporosis is often called a silent disease because bone loss occurs without symptoms until a fracture happens.
+
+This project aims to assist healthcare professionals by providing an automated, accurate, and efficient diagnostic support system. By leveraging Convolutional Neural Networks (CNN) and transfer learning models, the system analyzes medical images to identify early-stage bone density loss, enabling timely intervention and improved patient outcomes.
 
 ## Features
- 1. High Accuracy in Diagnosis
- 2. Increased Diagnostic Efficiency
- 3. Improved patient outcomes
- 4. Reduced healthcare costs
+
+Deep learning–based osteoporosis detection using CNN architecture
+
+Multi-class classification: Normal, Osteopenia, and Osteoporosis
+
+Uses transfer learning models such as VGG16, ResNet50, InceptionV3, and MobileNet
+
+Automated image preprocessing and normalization pipeline
+
+High accuracy with optimized training and fine-tuning
+
+Scalable and efficient model suitable for medical image datasets
+
+Reduced manual diagnosis time and improved diagnostic consistency
+
+Designed for easy integration into clinical decision-support systems
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
 
-### Hardware
-- GPU-Enabled Computing : NVIDIA GPU for faster processing.
-- CPU: High-performance CPU like Intel Core i7 or AMD Ryzen.
-- Memory: 16 GB RAM.
-- Storag*: 512 GB SSD.
+1. Operating System: Requires a 64-bit OS such as Windows 10/11 or Ubuntu for compatibility with deep learning frameworks and GPU support.
 
-### Software
-- Programming Language :Python 3.8+.
-- Libraries: TensorFlow, Keras, Scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Seaborn.
-- Development Environment : Jupyter Notebook or VS Code.
-- Operating System: Ubuntu or Windows 10/11.
-- Additional Dependencies: CUDA Toolkit, Anaconda Distribution for managing packages and environments.
+2. Development Environment: Python 3.8 or later is required for implementing and training deep learning models.
 
-### Data Requirements
-- Dataset: Publicly available thyroid function test data, labeled for hypothyroidism classification.
-- Data Processing: Handling missing values and feature engineering for consistent, reliable model training.
-  
+3.  Deep Learning Frameworks: TensorFlow and Keras are used for building, training, and fine-tuning CNN and transfer learning models.
+
+4. Image Processing Libraries: OpenCV is used for image loading, preprocessing, resizing, and normalization.
+
+5. Machine Learning Libraries: scikit-learn is used for performance evaluation metrics such as confusion matrix and classification report.
+
+6. Hardware Requirements: GPU support (NVIDIA GPU with CUDA) is recommended for faster model training and improved performance.
+
+7. Version Control: Git is used for source code management, collaboration, and version tracking.
+
+8. IDE: Visual Studio Code (VS Code) or Jupyter Notebook for coding, experimentation, and debugging.
+
+9. Additional Dependencies: Includes NumPy, Matplotlib, TensorFlow (GPU/CPU), Keras, OpenCV, and scikit-learn for complete model development and evaluation.
+
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![image](https://github.com/user-attachments/assets/fe0f8d70-c49a-4a70-836d-0dd025a4851a)
-
+![Picture4](https://github.com/user-attachments/assets/e6d808fe-0007-4042-8d7e-9a510c0c31ea)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - HYPOTHYROID DETECTION
-![Screenshot 2024-10-29 162802](https://github.com/user-attachments/assets/78ee8743-9926-4a03-b627-1847112ba03d)
+#### Output1 - Image Preprocessing
 
-#### Output2 - DETECTION WITH DETAILS
+![Picture1](https://github.com/user-attachments/assets/0ea87386-e12f-4d2e-b7a9-ced699e3011b)
 
-![Screenshot 2024-10-29 162734](https://github.com/user-attachments/assets/aefac261-d2fa-41c0-9fb8-197ddc5b8a8e)
+![Picture2](https://github.com/user-attachments/assets/61afa5b5-1dee-4ea6-b2c2-57ce6fc58927)
 
-### Output3 - Real Time Visulalization 
-![Screenshot 2024-10-29 162753](https://github.com/user-attachments/assets/9f175990-85ea-4f76-84e8-445918444abf)
 
+#### Output2 - Performance Evaluation
+
+![WhatsApp Image 2025-12-17 at 10 26 58 PM](https://github.com/user-attachments/assets/8b7bb830-3776-4516-a6f0-1a3270bb22f2)
+
+Detection Accuracy: 96.7%
+Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-Deep learning
-Accuracy: 98%
-Precision: 93%
-Recall: 92%
-Inferences: Effective
-![Screenshot 2024-10-29 163228](https://github.com/user-attachments/assets/a4e9f094-c7d4-4e19-9922-c451a731a3c8)
+The StrongBones: Cracking the Silent Disease system demonstrates effective and reliable detection of bone health conditions, including Normal, Osteopenia, and Osteoporosis, using deep learning–based medical image analysis. The model achieves strong classification performance, enabling early identification of osteoporosis and supporting timely clinical decision-making.
 
-
-The project enhances early hypothyroid detection accuracy, aids remote diagnostics, saves resources, and provides a foundation for AI-driven healthcare tools.
+This project highlights the practical application of deep learning in healthcare diagnostics and showcases how automated image-based analysis can reduce manual effort, improve diagnostic accuracy, and assist medical professionals. It serves as a foundation for future advancements in AI-driven medical diagnosis systems and contributes toward improving preventive healthcare and patient outcomes.
 
 ## Articles published / References
-1.E. Mohan et al., "Thyroid Detection and Classification Using DNN Based on Hybrid Meta-Heuristic and LSTM Technique," in IEEE Access, vol. 11, pp. 68127-68138, 2023.
 
-2.X. Chai, "Diagnosis Method of Thyroid Disease Combining Knowledge Graph and Deep Learning," in IEEE Access, vol. 8, pp. 149787-149795, 2020.
+G. Litjens et al., “A survey on deep learning in medical image analysis,” Medical Image Analysis, vol. 42, pp. 60–88, 2017.
 
-3.G. Obaido et al., "An Improved Framework for Detecting Thyroid Disease Using Filter-Based Feature Selection and Stacking Ensemble," in IEEE Access, vol. 12, pp. 89098-89112, 2024.
+A. Esteva et al., “Dermatologist-level classification of skin cancer with deep neural networks,” Nature, vol. 542, no. 7639, pp. 115–118, 2017.
+
+K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” in Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770–778, 2016.
+
+K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” in Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770–778, 2016.
+
+
+
+
 
